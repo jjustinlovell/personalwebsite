@@ -1,5 +1,6 @@
 import { delay, motion } from "framer-motion";
 import Tile from "./components/Tile";
+import TypewriterComponent from "typewriter-effect";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           <Tile key={i} />
         ))}
       </section>
-      <div className="pointer-events-none absolute inset-0 flex flex-col gap-5 items-center justify-center z-10 mb-10 font-prompt">
+      <div className="pointer-events-none absolute inset-0 flex flex-col gap-5 items-center justify-center z-10 mb-10 font-poppins">
         <motion.h1
           initial="initial"
           animate={{ opacity: 1, y: 0 }}
@@ -67,14 +68,20 @@ function App() {
             })}
           </div>
         </motion.h1>
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25 }}
-          className="text-white w-1/2 text-xl text-center tracking-wide"
+          className="text-white text-xl tracking-wide font-semibold italic"
         >
-          Frontend Developer
-        </motion.p>
+          <TypewriterComponent
+            options={{
+              strings: ["Frontend Developer", "Student at BINUS"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </motion.div>
       </div>
     </main>
   );
