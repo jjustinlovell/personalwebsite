@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 
 export default function Name() {
   return (
+    <motion.div
+    initial={{ opacity: 0, y: 100 }}
+    animate={{ opacity: 1, y: 0 }}>
     <motion.h1
       initial="initial"
       animate={{ opacity: 1, y: 0 }}
@@ -60,5 +63,6 @@ export default function Name() {
         })}
       </div>
     </motion.h1>
+    </motion.div>
   );
 }
