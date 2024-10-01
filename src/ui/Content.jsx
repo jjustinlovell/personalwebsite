@@ -14,18 +14,9 @@ export default function Content() {
     <section className="relative w-full font-poppins">
       <GridBackGround />
       <div className="absolute inset-0 z-10 text-center uppercase pointer-events-none">
-        <motion.h1
-          animate={{ y: [0, -10, 0] }}
-          transition={{
-            ease: "easeInOut",
-            duration: 2,
-            repeat: Infinity,
-            repeatType: "mirror",
-          }}
-          className="text-2xl font-extrabold tracking-wide text-white md:text-5xl lg:text-7xl"
-        >
+        <h1 className="text-2xl font-extrabold tracking-wide text-white md:text-5xl lg:text-5xl">
           SKILLS
-        </motion.h1>
+        </h1>
         <div className="flex flex-wrap justify-center w-2/3 mx-auto mt-24 gap-28">
           <motion.div
             className="pointer-events-auto"
@@ -38,7 +29,7 @@ export default function Content() {
               icon={faHtml5}
               size="lg"
               color="darkorange"
-              className="text-7xl md:text-[160px] lg:text-[190px]"
+              className="text-7xl md:text-[110px]"
             />
           </motion.div>
 
@@ -49,7 +40,12 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <FontAwesomeIcon icon={faCss3} size="10x" color="blue" className="text-7xl md:text-[160px] lg:text-[190px]" />
+            <FontAwesomeIcon
+              icon={faCss3}
+              size="10x"
+              color="blue"
+              className="text-7xl md:text-[110px]"
+            />
           </motion.div>
           <motion.div
             className="pointer-events-auto"
@@ -58,7 +54,12 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <FontAwesomeIcon icon={faJs} size="10x" color="yellow" className="text-7xl md:text-[160px] lg:text-[190px]" />
+            <FontAwesomeIcon
+              icon={faJs}
+              size="10x"
+              color="yellow"
+              className="text-7xl md:text-[110px]"
+            />
           </motion.div>
           <motion.div
             className="pointer-events-auto"
@@ -67,7 +68,12 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <FontAwesomeIcon icon={faReact} size="10x" color="#61dbfb" className="text-7xl md:text-[160px] lg:text-[190px]"/>
+            <FontAwesomeIcon
+              icon={faReact}
+              size="10x"
+              color="#61dbfb"
+              className="text-7xl md:text-[110px]"
+            />
           </motion.div>
           <motion.div
             className="pointer-events-auto"
@@ -76,7 +82,10 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <SiTailwindcss className="text-7xl md:text-[160px] lg:text-[190px]" color="#06B6D4" />
+            <SiTailwindcss
+              className="text-7xl md:text-[160px] lg:text-[110px]"
+              color="#06B6D4"
+            />
           </motion.div>
           <motion.div
             className="pointer-events-auto"
@@ -85,7 +94,12 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <FontAwesomeIcon icon={faNode} size="10x" color="white" className="text-7xl md:text-[160px] lg:text-[190px]" />
+            <FontAwesomeIcon
+              icon={faNode}
+              size="10x"
+              color="white"
+              className="text-7xl md:text-[110px]"
+            />
           </motion.div>
           <motion.div
             className="pointer-events-auto"
@@ -94,7 +108,7 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <SiExpress className="text-7xl md:text-[160px] lg:text-[190px]" color="white" />
+            <SiExpress className="text-7xl md:text-[110px]" color="white" />
           </motion.div>
         </div>
       </div>

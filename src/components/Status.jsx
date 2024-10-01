@@ -7,7 +7,7 @@ export default function Status() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.25 }}
-      className="text-xl italic font-semibold tracking-wide text-white"
+      className="text-sm italic font-extrabold tracking-wide text-white md:text-xl"
     >
       <TypeWriter />
     </motion.div>
