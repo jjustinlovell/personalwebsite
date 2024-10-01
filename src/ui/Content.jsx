@@ -15,7 +15,7 @@ export default function Content() {
       <GridBackGround />
       <div className="absolute inset-0 z-10 text-center uppercase pointer-events-none">
         <h1 className="text-2xl font-extrabold tracking-wide text-white md:text-5xl lg:text-5xl">
-          SKILLS
+          TECH
         </h1>
         <div className="flex flex-wrap justify-center w-2/3 mx-auto mt-24 gap-28">
           <motion.div
