@@ -14,4 +14,11 @@ export const ProjectData = [
     liveLink: "https://youtu.be/81hl69dCEek",
     description: "SecondChance is a platform that helps ex-convicts reintegrate into society through personal development, community service, and job training. Using gamification, users complete tasks like journaling and skill-building to earn points, which unlock job opportunities and mentorship. With AI-verified journaling and a chatbot consultant, SecondChance offers a fresh start for those seeking a stable, crime-free life."
   },
+  {
+    title: "Second Chance",
+    imageLink: "src/assets/images/secondChance1.png",
+    githubLink: "https://github.com/jjustinlovell/GH5",
+    liveLink: "https://youtu.be/81hl69dCEek",
+    description: "SecondChance is a platform that helps ex-convicts reintegrate into society through personal development, community service, and job training. Using gamification, users complete tasks like journaling and skill-building to earn points, which unlock job opportunities and mentorship. With AI-verified journaling and a chatbot consultant, SecondChance offers a fresh start for those seeking a stable, crime-free life."
+  },
 ];

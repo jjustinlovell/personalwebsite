@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section className="relative w-full font-poppins">
       <GridBackGround />
-      <div className="absolute inset-0 z-10 w-[90%] mx-auto text-center pointer-events-none">
+      <div className="absolute inset-0 z-10 w-full mx-auto text-center pointer-events-none">
         <h1 className="text-2xl font-extrabold tracking-wide text-white md:text-5xl lg:text-5xl">
           PROJECTS
         </h1>
