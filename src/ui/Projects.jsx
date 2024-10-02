@@ -11,9 +11,9 @@ export default function Projects() {
           PROJECTS
         </h1>
         <div className="flex flex-wrap justify-center gap-10">
-          <div className="w-1/2 h-auto p-6 mt-10 text-white rounded-md shadow-md pointer-events-auto md:w-1/3 bg-neutral-950 shadow-green-50">
+          <div className="w-3/4 h-auto p-6 mt-10 text-white border border-white rounded-md pointer-events-auto border-1 md:w-1/4 bg-neutral-950">
             <img src="src\assets\images\weatherapp.png" alt="" />
-            <h1 className="pt-3 text-xl">Weather App</h1>
+            <h1 className="pt-3 text-xl">Weather App</h1> 
             <p className="pt-3 text-justify">
               A simple weather app that provides the user with an ability to
               search for the current weather of any city by just typing the name
@@ -25,9 +25,9 @@ export default function Projects() {
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </div>
           </div>
-          <div className="w-1/2 h-auto p-6 mt-10 text-white rounded-md shadow-md pointer-events-auto md:w-1/3 bg-neutral-950 shadow-green-50">
+          <div className="w-3/4 h-auto p-6 mt-10 text-white border border-white rounded-md pointer-events-auto border-1 md:w-1/4 bg-neutral-950">
             <img src="src\assets\images\weatherapp.png" alt="" />
-            <h1 className="pt-3 text-xl">Weather App</h1>
+            <h1 className="pt-3 text-xl">Weather App</h1> 
             <p className="pt-3 text-justify">
               A simple weather app that provides the user with an ability to
               search for the current weather of any city by just typing the name
@@ -39,6 +39,7 @@ export default function Projects() {
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </div>
           </div>
+
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Socials() {
   return (
-    <div className="fixed top-0 z-10 flex mx-5 my-10 space-x-8">
+    <div className="fixed top-0 z-20 flex mx-5 my-10 space-x-8">
       <a
         href="https://www.linkedin.com/in/justin-lovell-a185b3284/"
         target="_blank"

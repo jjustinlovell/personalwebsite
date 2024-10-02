@@ -13,7 +13,7 @@ export default function Name() {
       className="relative overflow-hidden text-3xl font-black tracking-normal uppercase pointer-events-auto md:text-7xl lg:text-9xl text-neutral-100"
     >
       <div>
-        {"QWERTY UIOP".split("").map((l, i) => {
+        {"Justin Lovell".split("").map((l, i) => {
           return (
             <motion.span
               variants={{
@@ -38,7 +38,7 @@ export default function Name() {
         })}
       </div>
       <div className="absolute inset-0">
-        {"QWERTY UIOP".split("").map((l, i) => {
+        {"Justin Lovell".split("").map((l, i) => {
           return (
             <motion.span
               variants={{

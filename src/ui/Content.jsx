@@ -17,7 +17,7 @@ export default function Content() {
         <h1 className="text-2xl font-extrabold tracking-wide text-white md:text-5xl lg:text-5xl">
           TECH
         </h1>
-        <div className="flex flex-wrap justify-center w-2/3 mx-auto mt-24 gap-28">
+        <div className="flex flex-wrap justify-center w-3/4 mx-auto mt-24 md:w-2/3 w gap-28">
           <motion.div
             className="pointer-events-auto"
             whileHover={{
@@ -29,7 +29,7 @@ export default function Content() {
               icon={faHtml5}
               size="lg"
               color="darkorange"
-              className="text-7xl md:text-[110px]"
+              className="text-3xl sm:text-5xl md:text-[110px]"
             />
           </motion.div>
 
@@ -44,7 +44,7 @@ export default function Content() {
               icon={faCss3}
               size="10x"
               color="blue"
-              className="text-7xl md:text-[110px]"
+              className="text-3xl sm:text-5xl md:text-[110px]"
             />
           </motion.div>
           <motion.div
@@ -58,7 +58,7 @@ export default function Content() {
               icon={faJs}
               size="10x"
               color="yellow"
-              className="text-7xl md:text-[110px]"
+              className="text-3xl sm:text-5xl md:text-[110px]"
             />
           </motion.div>
           <motion.div
@@ -72,7 +72,7 @@ export default function Content() {
               icon={faReact}
               size="10x"
               color="#61dbfb"
-              className="text-7xl md:text-[110px]"
+              className="text-3xl sm:text-5xl md:text-[110px]"
             />
           </motion.div>
           <motion.div
@@ -83,7 +83,7 @@ export default function Content() {
             transition={{ type: "spring" }}
           >
             <SiTailwindcss
-              className="text-7xl md:text-[160px] lg:text-[110px]"
+              className="text-3xl sm:text-5xl md:text-[160px] lg:text-[110px]"
               color="#06B6D4"
             />
           </motion.div>
@@ -98,7 +98,7 @@ export default function Content() {
               icon={faNode}
               size="10x"
               color="white"
-              className="text-7xl md:text-[110px]"
+              className="text-3xl sm:text-5xl md:text-[110px]"
             />
           </motion.div>
           <motion.div
@@ -108,7 +108,7 @@ export default function Content() {
             }}
             transition={{ type: "spring" }}
           >
-            <SiExpress className="text-7xl md:text-[110px]" color="white" />
+            <SiExpress className="text-3xl sm:text-5xl md:text-[110px]" color="white" />
           </motion.div>
         </div>
       </div>
