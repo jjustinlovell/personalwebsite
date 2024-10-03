@@ -11,6 +11,5 @@ export default function Status() {
     >
       <TypeWriter />
     </motion.div>
-    
   );
 }
