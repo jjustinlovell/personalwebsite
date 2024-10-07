@@ -1,5 +1,4 @@
 import GridBackGround from "../components/GridBackGround";
-import { motion } from "framer-motion";
 import { TechData } from "../data/TechData";
 import TechIcon from "../components/TechIcon";
 
