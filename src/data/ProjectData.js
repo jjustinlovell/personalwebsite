@@ -1,7 +1,7 @@
 export const ProjectData = [
   {
     title: "Weather App",
-    imageLink: "src/assets/images/weatherapp.png",
+    imageLink: "/images/weatherapp.png",
     githubLink: "https://github.com/jjustinlovell/Weather-App",
     liveLink: "https://weather-app-jstn.vercel.app/",
     description:
@@ -9,15 +9,17 @@ export const ProjectData = [
   },
   {
     title: "SecondChance",
-    imageLink: "src/assets/images/secondChance1.png",
+    imageLink: "/images/secondChance1.png",
     githubLink: "https://github.com/jjustinlovell/GH5",
     liveLink: "https://youtu.be/81hl69dCEek",
-    description: "SecondChance is a platform that helps ex-convicts reintegrate into society through personal development, community service, and job training. Using gamification, users complete tasks like journaling and skill-building to earn points, which unlock job opportunities and mentorship. With AI-verified journaling and a chatbot consultant, SecondChance offers a fresh start for those seeking a stable, crime-free life."
+    description:
+      "SecondChance is a platform that helps ex-convicts reintegrate into society through personal development, community service, and job training. Using gamification, users complete tasks like journaling and skill-building to earn points, which unlock job opportunities and mentorship. With AI-verified journaling and a chatbot consultant, SecondChance offers a fresh start for those seeking a stable, crime-free life.",
   },
   {
-    title : "PerfoFit",
-    imageLink: "src/assets/images/perfofit.jpg",
-    githubLink : "https://github.com/guitiorr/FitnessApp",
-    description : "PerfoFit is a personalized fitness platform that helps you achieve your health goals by offering workout plans, the ability to hire professional trainers, and customized meal arrangements. Whether you're focused on building muscle, losing weight, or staying active, PerfoFit provides a comprehensive library of exercises for each muscle group, ensuring targeted and effective workouts. With the added benefit of arranging meals suited to your fitness plan, PerfoFit is your all-in-one solution for expert coaching, nutrition, and personalized fitness."
-  }
+    title: "PerfoFit",
+    imageLink: "/images/perfofit.jpg",
+    githubLink: "https://github.com/guitiorr/FitnessApp",
+    description:
+      "PerfoFit is a personalized fitness platform that helps you achieve your health goals by offering workout plans, the ability to hire professional trainers, and customized meal arrangements. Whether you're focused on building muscle, losing weight, or staying active, PerfoFit provides a comprehensive library of exercises for each muscle group, ensuring targeted and effective workouts. With the added benefit of arranging meals suited to your fitness plan, PerfoFit is your all-in-one solution for expert coaching, nutrition, and personalized fitness.",
+  },
 ];
