@@ -1,11 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import GridBackGround from "../components/GridBackGround";
 import ProjectShowcase from "../components/ProjectShowcase";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { ProjectData } from "../data/ProjectData";
-import { motion } from "framer-motion";
 import { useState } from "react";
-import LinkButton from "../components/LinkButton";
 
 export default function Projects() {
   const [hovered, setHovered] = useState(false);

@@ -1,13 +1,7 @@
 import GridBackGround from "../components/GridBackGround";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
-import { faCss3 } from "@fortawesome/free-brands-svg-icons";
-import { faJs } from "@fortawesome/free-brands-svg-icons/faJs";
-import { faReact } from "@fortawesome/free-brands-svg-icons/faReact";
-import { faNode } from "@fortawesome/free-brands-svg-icons";
-import { SiTailwindcss } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
+import { TechData } from "../data/TechData";
+import TechIcon from "../components/TechIcon";
 
 export default function Content() {
   return (
@@ -18,98 +12,14 @@ export default function Content() {
           TECH
         </h1>
         <div className="flex flex-wrap justify-center w-3/4 mx-auto mt-24 md:w-2/3 w gap-28">
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <FontAwesomeIcon
-              icon={faHtml5}
-              size="lg"
-              color="darkorange"
-              className="text-3xl sm:text-5xl md:text-[110px]"
+          {TechData.map((tech, index) => (
+            <TechIcon
+              key={index}
+              icon={tech.icon}
+              color={tech.color}
+              isFontAwesome={tech.isFontAwesome}
             />
-          </motion.div>
-
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <FontAwesomeIcon
-              icon={faCss3}
-              size="10x"
-              color="blue"
-              className="text-3xl sm:text-5xl md:text-[110px]"
-            />
-          </motion.div>
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <FontAwesomeIcon
-              icon={faJs}
-              size="10x"
-              color="yellow"
-              className="text-3xl sm:text-5xl md:text-[110px]"
-            />
-          </motion.div>
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <FontAwesomeIcon
-              icon={faReact}
-              size="10x"
-              color="#61dbfb"
-              className="text-3xl sm:text-5xl md:text-[110px]"
-            />
-          </motion.div>
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <SiTailwindcss
-              className="text-3xl sm:text-5xl md:text-[160px] lg:text-[110px]"
-              color="#06B6D4"
-            />
-          </motion.div>
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <FontAwesomeIcon
-              icon={faNode}
-              size="10x"
-              color="white"
-              className="text-3xl sm:text-5xl md:text-[110px]"
-            />
-          </motion.div>
-          <motion.div
-            className="pointer-events-auto"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: "spring" }}
-          >
-            <SiExpress className="text-3xl sm:text-5xl md:text-[110px]" color="white" />
-          </motion.div>
+          ))}
         </div>
       </div>
     </section>
